@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating CSS Columns</title>
+	<style type="text/css">
+
+		.tabs{
+			width:1300px;
+			height:550px;
+			background-color:orange;
+			padding:20px;
+			margin-right: 10px;
+		}
+
+		h1 {
+			margin-top: 100px;
+		}
+
+		a {
+			margin-right: 10px;
+			padding: 25px;
+			border: 2px white solid;
+			border-radius: 40px;
+			color: white;
+			color: black;
+			text-decoration-color: white;
+		}
+
+		a:hover {
+			background-color: white;
+			text-decoration-color: white;
+
+		}
+
+		.tabs > div	{
+			display: none;
+			margin-top: 10px;
+		}
+
+		.tabs > div:target {
+			display: block;
+		}
+
+
+
+
+
+		.art1  {
+			column-count: 2;
+			column-rule: 3px black solid;
+			-webkit-column-rule:3px black solid;
+			-moz-column-rule:3px black solid;
+			text-align: justify;
+			column-gap: 30px;
+			-webkit-column-gap:30px;
+			-moz-column-gap:30px;
+			line-height: 25px;
+		}
+
+		 .art2 {
+			column-count: 3;
+			column-rule: 4px black solid;
+			-webkit-column-rule:4px black solid;
+			-moz-column-rule:4px black solid;
+			text-align: justify;
+			column-gap: 30px;
+			-webkit-column-gap:30px;
+			-moz-column-gap:30px;
+		}
+
+		.art3 {
+			column-count: 4;
+			column-rule: 6px black solid;
+			-webkit-column-rule:6px black solid;
+			-moz-column-rule:6px black solid;
+			
+			column-gap: 30px;
+			-webkit-column-gap:30px;
+			-moz-column-gap:30px;
+			line-height: 20px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="tabs">
+			<a href="#art1">Article 1</a>
+			<a href="#art2">Article 2</a>
+			<a href="#art3">Article 3</a>
+			
+
+	<div id="art1">
+	<h1>This Article has 2 Columns</h1>
+	<article class="art1">This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.</article>
+	</div>
+
+	<div id="art2">
+	<h1>This Article has 3 Columns</h1>
+	<article class="art2">Hi this is Arslan. I am professional in web designing, i do custom website designing and an expert of web re-designing. I have Good Skill about any kinds of PSD Web Template Designing.f which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.</article>
+	</div>
+
+
+	<div id="art3">
+	<h1>This Article has 4 Columns</h1>
+	<article class="art3">This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.This is a Paragraph, of which columns will be created.</article>
+	</div>
+
+		
+</div>
+</body>
+</html>

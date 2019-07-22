@@ -1,0 +1,7 @@
+web link
+
+http://localhost/php%20project/index.html
+
+database link
+
+http://localhost/phpmyadmin/sql.php?db=software_house&table=form_data&token=a10a4a85dd89efbc4ba6a8c5ef2d3f44&pos=0

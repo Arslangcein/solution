@@ -1,0 +1,32 @@
+
+.nav{
+	width:1348px;
+	height:70px;
+	background-color:orange;
+	
+}
+.nav > ul{
+	background-color:aqua;
+	padding:0px;
+	margin:0px;
+	
+}
+.nav > ul > a{
+	color:white;
+	text-decoration:none;
+
+}
+.nav > ul > a > li{
+	background-color:gray;
+	list-style-type:none;
+	float:left;
+	padding:30px 50px;
+	border-right:1px orange solid; 
+}
+.nav > ul > a > li:hover{
+	background-color:white;
+	color:#666666;
+	font-style:italic;
+	text-decoration:underline;
+	border-radius:0px;
+}

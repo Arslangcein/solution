@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My internal css</title>
+        <style>
+            body {
+                background-color: darkslategrey;
+                color: azure;
+                font-size: 1.1em;
+            }
+            h1 {
+                color: coral;
+            }
+            #intro {
+                font-size: 1.3em;
+            }
+            .colorful {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Embedded Styles</h1>
+        <p id="intro">Allow you to define styles for the whole document.</p>
+        <p class="colorful">This has a style applied via a class.</p>
+    </body>
+</html>
+
+External Styles
+External style sheets are the most common method of applying styles to a website. Most modern websites use an external stylesheet to apply site-wide styles to the whole website.
+
+External styles refer to creating a separate file that contains all style information. This file is then linked to from as many HTML pages as you like. This will often be the whole website.
+
+To add an external stylesheet to a web page, use the <link> tag, providing the URL of the style sheet in the href attribute, as well as rel="stylesheet".
+
+For the following example, I've taken the styles from the above (embedded) example, moved them to an external style sheet, then linked to that file.
+

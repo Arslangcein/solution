@@ -1,0 +1,68 @@
+.main{
+margin:0px auto;
+width:1348px;
+height:1000px;
+background-color:white;
+}
+
+.header{
+margin:0px auto;
+width:1348px;
+height:100px;
+background-color: #b3b3ff;
+}
+
+.nav{
+margin:0px auto;
+width:1348px;
+height:80px;
+background-color:#cceeff;
+}
+
+.contanor{
+margin:0px auto;
+width:1348px;
+height:730px;
+background-color:545454;
+}
+
+.contanor .contact{
+margin:0px auto;
+width:900px;
+height:730px;
+background-color:E0E9EB;
+float:left;
+}
+
+.contanor .sidebar{
+margin:0px auto;
+width:448px;
+height:430px;
+background-color:red;
+float:left;
+}
+.contanor .sidebar .adds{
+margin:0px auto;
+width:448px;
+height:500px;
+background-color:FFFFFF;
+float:bottom;
+}
+.footer{
+margin:0px auto;
+width:1348px;
+height:140px;
+background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

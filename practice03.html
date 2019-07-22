@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+<body>
+<fieldset>
+<legend>Data Form</legend>
+		<form method="get" action="" align="center">
+		<label>F-NAME:</label>
+<input name="FirstName" type="text" autofocus 
+			placeholder="Your First-Name" pattern="[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required>
+			<label>CNIC:</label>
+			<input  type="text"  name="LastName"
+			placeholder="Your Last-Name"  required title="The format of CNIC is : XXXXX-XXXXXXX-X"
+			pattern="[0-9]{,5} *[0-9]{,7} *[0-9]{,1}"><br>
+			<br>
+			<label>EMAIL:</label>
+			<input name="E-mail" type="email"  
+			placeholder="Your E-mail Name" value="@gmail.com"required>
+			<label>E-PASS:</label>
+			<input  type="text" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,13}" title="Must contain at 
+			least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+			 placeholder="Your E-mail Password"  >
+			 <br>
+			 <br>
+			 <label>Credit Card:</label>
+			<input name="text" type="Password" pattern="[0-9]{16,18}
+" title="The format of CREDIT CARD is : XXXX-XXXX-XXXX-XXXX"
+			 placeholder=" Enter Your Cridit Card Number" size="27" required>
+			 
+			  <label>Date of Birth:</label>
+			<input type="text"  name="text" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}"
+			 placeholder=" Enter Your Date of Birth " title="The Format of D: DD.MM.YYYY" ><br>
+			 <br>
+			 <label>Range:</label>
+			 <input type="range" name="range" minlength="3" maxlength="100" step="5">
+			 </br>
+			 </br>
+			<textarea name="message" class="form-control" placeholder="Message"
+			rows="10" cols="54" ></textarea><br>
+			<input type="Submit" class="form-control submit" >
+			<input type="reset">
+			</br>
+			 
+			 		</form>
+					</fieldset>
+		</body>
+</html>

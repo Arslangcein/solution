@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+<body>
+<fieldset>
+<legend>Data Form</legend>
+		<form method="get" action="" align="center">
+		<label>F-NAME:</label>
+<input name="FirstName" type="text" autofocus 
+			placeholder="Your First-Name" required>
+			<label>L-NAME:</label>
+			<input name="LastName" type="text"  
+			placeholder="Your Last-Name" maxlength="15" minlength="3" required title="FILL in Alfabit"
+			pattern="[a-z]"><br>
+			<br>
+			<label>EMAIL:</label>
+			<input name="E-mail" type="email"  
+			placeholder="Your E-mail Name" value="@gmail.com"required>
+			<label>E-PASS:</label>
+			<input name="Password" type="Password" 
+			 placeholder="Your E-mail Password" disabled required><br>
+			 <br>
+<label> COUNTRY:</label>
+ <input list="country" name="country">
+  <datalist id="country">
+    <option value="PAKISTAN">
+    <option value="CHAIN">
+    <option value="ARAN">
+    <option value="SHAM">
+    <option value="MISER">
+  </datalist>
+  <label>NUMBER:</label>
+<input name="number" type="text"  
+			placeholder="Your Phone-Number" minlength="7" maxlength="14" required>
+  </br>
+  </br>
+  <label>SUBJECT:</label>
+  <input name="subject" type="text" autofocus 
+			placeholder="About" size="40" required>
+			</br>
+			</br>
+			<textarea name="message" class="form-control" placeholder="Message"
+			rows="10" cols="54" required></textarea><br>
+			<input type="Submit" class="form-control submit" >
+			<input type="reset">
+			</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14146061.20153047!2d60.30192545758935!3d30.047522064575798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1561479032790!5m2!1sen!2s"
+ width="300" height="250" frameborder="0" style="border:0" align="left" allowfullscreen></iframe>
+</br>
+		</form>
+		</body>
+</html>

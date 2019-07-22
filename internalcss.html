@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>CSS text styleing internal css</title>
+
+<style>
+  /* first*/
+  p {
+    letter-spacing: 2px;
+	word-spacing: 10px;
+	font-size:40px;
+	color:Blue;
+	font-style:italic;
+	font-weight:normal;
+	font-family:calibri;
+	text-align:center;
+	/*left side sy space dy dete he new line or paraghrap start hone py*/
+	text-indent:20px;
+	line-height:30px;  }
+  /* second*/
+  
+   .overline {
+    text-decoration: overline;
+  }
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  a:link {
+    text-decoration: none;
+	
+	color:red;
+  }
+ 
+  /* third*/
+   .uppercase {
+    text-transform: uppercase;
+  }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .capitalize {
+    text-transform: capitalize;
+	}
+	 /* forth case is none    
+	 {
+    text-transform: none;
+  }   
+  */
+  
+  
+  
+    /* forth*/
+	
+  h5{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  
+   /* fifth*/
+   
+     h6 {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+  }
+  /* six*/
+  
+  h4{
+    text-shadow: 2px 2px 8px green;
+  }
+</style>
+
+</head>
+<body>
+<!-----forth---->
+<p>This text has letter spacing applied</p>
+<!-----second---->
+<h1>overline</h1>
+<h3 class="overline">This text has a line over the top</h3>
+
+<h1>line-through</h1>
+<h2 class="line-through">This text has a line through the middle</h2>
+
+<h1>underline</h1>
+<h3 class="underline">This text has a line underneath</h3>
+
+<h1>link</h1>
+<a href="/css/" target="_blank">This hyperlink has no underline</a>
+
+<!-----third---->
+<p class="uppercase">This text has been transformed to uppercase</p>
+<p class="lowercase">THIS TEXT HAS BEEN TRANSFORMED TO LOWERCASE</p>
+<p class="capitalize">this text has been capitalized.</p>
+<!-----forth---->
+<h1>text left to right</h1>
+<h5>This text is running from right to left.
+ This can be useful for
+ languages where the text runs from right to left. Not so useful for english though..
+<h5>
+<!-----fifth---->
+
+<h1>text right to left</h1>
+<h6>This text is running from right to left.
+ This can be useful for
+ languages where the text runs from right to left. Not so useful for english though..
+<h6>
+
+<!-----six---->
+<h4>If your browser supports the CSS text-shadow property, this text will have a shadow</h4>
+</body>
+
+
